@@ -19,13 +19,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *T-REX*:  ```" + msg + "```"
+    return "✅ *PODDA-Z *:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *T-REX*:  ```" + msg + "```"
+    return "🛑 *PODDA-Z *:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *T-REX*:  ```" + msg + "```"
+    return "⏺️ *PODDA-Z *:  ```" + msg + "```"
 }
 
 

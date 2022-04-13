@@ -1,19 +1,19 @@
 
 <div align="center">
-  <h1>☃️🎅 MERRY CHRISTMAS ☃️❄️</h1>
-  <h2>☃️ T-REX BOT OFFICIAL ☃️</h2>
+  <h1>🪔HAPPY NEW YEAR 🪔️</h1>
+  <h2>🪔 PODDA-Z BOT OFFICIAL🪔 </h2>
 </div>
 <div align="center">
-  <img border-radius: 15px src="https://telegra.ph/file/0c88b73ec76e82f0933d7.jpg" width="400" height="400"/>
+  <img border-radius: 15px src=" width="400" height="400"/>
   <p align="center">
 <a href="#"><img title="White" src="https://img.shields.io/badge/T REX PUBLIC-blue?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/TRexWa"><img title="White Dragon" src="https://img.shields.io/badge/Created💥by💥 HIRUWA-dqz/JulieMwol?color=red&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/TRexWa"><img title="White Dragon" src="https://img.shields.io/badge/Created💥by💥 PODDA-Z -dqz/JulieMwol?color=red&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/Dark-Knight-Hiruwa"> HIRUWA</a> This project may be free
+Project created by <a href="https://github.com/Sathsara12/T-REX"> VIHANGA </a> This project may be free
     <br
        | © |
         owner |
@@ -27,9 +27,9 @@ Project created by <a href="https://github.com/Dark-Knight-Hiruwa"> HIRUWA</a> T
     <img src="https://img.shields.io/github/repo-size/Dark-Knight-Hiruwa/T-REX?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/Dark-Knight-Hiruwa/followers"><img title="Followers" src="https://img.shields.io/github/followers/Dark-Knight-Hiruwa?color=blue&style=flat-square"></a>
-<a href="https://github.com/Dark-Knight-Hiruwa/T-REX/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Dark-Knight-Hiruwa/T-REX?color=blue&style=flat-square"></a>
-<a href="https://github.com/Dark-Knight-Hiruwa/T-REX/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Dark-Knight-Hiruwa/T-REX?color=blue&style=flat-square"></a>
-<a href="https://github.com/Dark-Knight-Hiruwa/T-REX/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Dark-Knight-Hiruwa/T-REX?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Sathsara12/T-REX/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Dark-Knight-Hiruwa/T-REX?color=blue&style=flat-square"></a>
+<a href="https://github.com/Sathsara12/T-REX/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Dark-Knight-Hiruwa/T-REX?color=blue&style=flat-square"></a>
+<a href="https://github.com/Sathsara12/T-REX/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Dark-Knight-Hiruwa/T-REX?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
   
@@ -38,10 +38,10 @@ Project created by <a href="https://github.com/Dark-Knight-Hiruwa"> HIRUWA</a> T
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GknHjjbu6auDKwUItqvbRh)
   <div align="center">
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Dark-Knight-Hiruwa&repo=T-REX&theme=nightowl)](https://github.com/Dark-Knight-Hiruwa/T-REX)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Dark-Knight-Hiruwa&repo=T-REX&theme=nightowl)](https://github.com/Sathsara12/T-REX)
   </div>
     
 ## Setup
@@ -58,56 +58,18 @@ Click WA logo to Join Support Group 👇
 <br >
 
 ```
-ඔයත් ඔන්ලයින් ස්ටෝර් එකක් ඔන්ලයින් බිස්නස් එකක් ඔයාගෙම කියලා ගෲප් එකක් කරනවද ?
-
-කස්ටර්මර්ස්ලා අහන අහන් ප්‍රශ්න වලට උත්තර දීලා එපා වෙනවද ?
-
-සමහර විට ඕර්ඩර්ස් මිස් වෙනවද ?
-
-ඔබ දුර ගමන්ක් යන්නේද ? එදින ඔබගේ කස්ටර්මර්ස්ලා සමග කතා කිරීමට නොහැකිද ඒනම් ඔයා බලන් ඉද්දි ඔටෝම මැසේජ් යවමුද ?
-
-ටීම් මෙම්බර්ස්ලාට මැසේජ් ටයිප් කරලා එපා වෙනවද ?
-
-ඒනම් මෙන්න විසදුම 🤭
-
-වට්සැප් හෝ ටෙලිග්‍රෑම් ඔයාට ඕනෑම ආකාරයේ රොබෝවරයෙක් සදාදෙන්න PEARL TEAM සූදානම් 😍
-
-රොබෝවරයෙකු යනු කවෘන්ද ?
-
-රොබෝවරයෙකු යනු සියලුම දේ ඔටෝමේට්  ක්‍රියා කරන ලෙස සාදා ඇති පිලියමකි මෙයින් ඔබේ වැඩ පහසු කර ගත හැකිය.
-
-වචන 1000 ක ජේදයක් උවත් අකුරු තුනකින් යැවිය හැකිය 😍
-
-ඔබ මෙම බොට් මිලදී ගත් පසු LIFE TIME ඔබට ලබා ගත හැකි වීම 😍
-
-ඔබගේ සියලුම වැඩ පහසු කරගැනීමට හැකි වීම 😍
-
-ඔබගේ කාලය ඉතිර කරගැනීමේ හැකියාව 😍
-
-දැන් ඔබල PEARL වෙතින් ලබා ගත හැක 
-
-😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍
 
 වැඩි දුර විස්තර සදහා 🥺
 
 WHATSAPP 
 
-KASUN RAVIHARA
+VIHANGA INUSARA
 
-wa.me/+94716184907
-
-HIRUSHA RUKSHAN
-
-wa.me/+94704029407
+https://wa.me/94774351706
 ``` 
     
     
-[![TRAILER](https://telegra.ph/file/0c88b73ec76e82f0933d7.jpg)](https://www.youtube.com/embed/oWDW6_Ewi1U)
 
-<div align="center">
-  <h1>🍁T-REX OFFICIAL TRAILER🍁</h1>
-  <p>📛 WATCH T-REX BOT TRAILER VIDEO CLICK T-REX LOGO📛
-</div>
 
 
   
@@ -115,7 +77,7 @@ wa.me/+94704029407
 ### ⚠️ Warning! 
 ```
 කරුනාකර ඉහත වට්සැප් ලොගො එක ක්ලික් කරල suppot group එකට ජොයින් වෙන්න
-CREATED BY HIRUWA
+CREATED BY VIHANGA
 ```
 
 

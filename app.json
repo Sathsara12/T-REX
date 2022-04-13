@@ -1,8 +1,8 @@
 {
-    "name": "T-REX V 3.0.0",
+    "name": "PODDA-Z 3.0.0",
     "description": "World Best Whatsapp Bot",
     "logo": "https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg",
-    "keywords": ["Trex", "T-REX"],
+    "keywords": ["PODDA", "PODDA-Z "],
     "stack": "container",
     "env": {
       "TREX_SESSION": {
@@ -19,20 +19,20 @@
             "value": "default"
         },
         "SONG_UPLOAD": {
-            "description": "SONG UPLOAFING MESSAGE",
-            "value": "╔╦══• •✠•❀•✠ • •══╦╗\n          ☃️тяєx cяʜısтмαs☃️\n        ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ\n             ■■■■■100%\n╚╩══• •✠•❀•✠ • •══╩╝"
+            "description": "SONG UPLOADING MESSAGE",
+            "value": "`✵•.¸,✵°✵.｡.✰• •✠•❀•✠ • •✰.｡.✵°✵,¸.•✵´\n          🪔️ᑭOᗪᗪᗩ-ᘔ🪔️\n        ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ\n             ■■■■□90%\n`✵•.¸,✵°✵.｡.✰• •✠•❀•✠ • •✰.｡.✵°✵,¸.•✵´ "
         },
         "SONG_DOWNLOAD": {
             "description": "SONG DOWNLOADING MESSAGE",
-            "value": "╔╦══• •✠•❀•✠ • •══╦╗\n         ☃️тяєx cяʜısтмαs☃️\n      sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ sᴏɴɢ\n              ■■□□□40%\n╚╩══• •✠•❀•✠ • •══╩╝"
+            "value": "`✵•.¸,✵°✵.｡.✰• •✠•❀•✠ • •✰.｡.✵°✵,¸.•✵´\n         🪔ᑭOᗪᗪᗩ-ᘔ🪔️\n      sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ sᴏɴɢ\n              ■■■□□60%\n`✵•.¸,✵°✵.｡.✰• •✠•❀•✠ • •✰.｡.✵°✵,¸.•✵´ "
         },
         "VIDEO_UPLOAD": {
             "description": "VIDEO UPLOADING MESSAGE",
-            "value":"╔╦══• •✠•❀•✠ • •══╦╗\n          ☃️тяєx cяʜısтмαs☃️\n        ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ\n             ■■■■■100%\n╚╩══• •✠•❀•✠ • •══╩╝"
+            "value":"`✵•.¸,✵°✵.｡.✰• •✠•❀•✠ • •✰.｡.✵°✵,¸.•✵´\n          🪔ᑭOᗪᗪᗩ-ᘔ🪔\n        ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ\n             ■■■■□90%\n`✵•.¸,✵°✵.｡.✰• •✠•❀•✠ • •✰.｡.✵°✵,¸.•✵´ "
         },
         "VIDEO_DOWNLOAD": {
             "description": "VIDEO DOWNLOADING MESSAGE",
-            "value":"╔╦══• •✠•❀•✠ • •══╦╗\n         ☃️тяєx cʜяısтмαs☃️\n      sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ\n              ■■□□□40%\n╚╩══• •✠•❀•✠ • •══╩╝"
+            "value":"`✵•.¸,✵°✵.｡.✰• •✠•❀•✠ • •✰.｡.✵°✵,¸.•✵´\n         🪔️ᑭOᗪᗪᗩ-ᘔ🪔️\n      sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ\n              ■■■□□60%\n`✵•.¸,✵°✵.｡.✰• •✠•❀•✠ • •✰.｡.✵°✵,¸.•✵´ "
         },
         "TIME_ZONE": {
             "description": "YOUR COUNTRY TIME ZONE ලන්කාවෙ අය තියන විදිහට තියන්න..",
@@ -262,7 +262,7 @@
         "CAPTION": {
             "description": "LOGO MAKER CAPTION",
             "required": true,
-            "value": "   ▷ ᴹᴬᴰᴱ 🄱🅈 Ｔ-ＲＥＸ │"
+            "value": "   ▷ ᴹᴬᴰᴱ 🄱🅈 PODDA-Z │"
         },
         "COFFEEHOUSE_API_KEY": {
             "description": "Give it up. We give you this.",

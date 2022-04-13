@@ -1,5 +1,5 @@
 /*
-# T REX BOT
+# PODDA-Z BOT
 */
 
 const fs = require("fs");
@@ -91,7 +91,7 @@ async function whatsAsena () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('✅ Login Information Updated!')
+            chalk.blueBright.italic('➠Login Information Updated!')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -106,13 +106,13 @@ async function whatsAsena () {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`);
+${chalk.blue.italic('ℹ️ PODDA-Z Bot Connecting to WhatsApp... Please Wait.')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('✅ T Rex Login successful!'
+            chalk.green.bold('➠PODDA-Z Login successful!'
         );
 
         console.log(
@@ -142,7 +142,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
         });
 
         console.log(
-            chalk.green.bold('✅ Plugins Installed!')
+            chalk.green.bold('➠ Plugins Installed!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -151,11 +151,11 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
 
                 if (conn.user.jid === '994775555555@s.whatsapp.net' ) {
 
-                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Tespit Edildi!```', MessageType.text)
+                    await conn.sendMessage(conn.user.jid, '```🌸 Blacklist Tespit Edildi!```', MessageType.text)
 
                     await new Promise(r => setTimeout(r, 1700));
 
-                    console.log('🛡️ Blacklist Detected 🛡️')
+                    console.log('🌸 Blacklist Detected 🌸')
 
                     await heroku.get(baseURI + '/formation').then(async (formation) => {
                         forID = formation[0].id;
@@ -196,11 +196,11 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
 
                 if (conn.user.jid === '9947755555@s.whatsapp.net') {
 
-                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!```', MessageType.text)
+                    await conn.sendMessage(conn.user.jid, '```🌸 Blacklist Detected!```', MessageType.text)
 
                     await new Promise(r => setTimeout(r, 1800));
 
-                    console.log('🛡️ Blacklist Detected 🛡️')
+                    console.log('🌸 Blacklist Detected 🌸')
                     await heroku.get(baseURI + '/formation').then(async (formation) => {
                         forID = formation[0].id;
                         await heroku.patch(baseURI + '/formation/' + forID, {
@@ -242,11 +242,11 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
 
                 if (conn.user.jid === '99477555@s.whatsapp.net' ) {
 
-                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!```', MessageType.text)
+                    await conn.sendMessage(conn.user.jid, '```🌸 Blacklist Detected!```', MessageType.text)
 
                     await new Promise(r => setTimeout(r, 1800));
 
-                    console.log('🛡️ Blacklist Detected 🛡️')
+                    console.log('🌸 Blacklist Detected 🌸')
                     await heroku.get(baseURI + '/formation').then(async (formation) => {
                         forID = formation[0].id;
                         await heroku.patch(baseURI + '/formation/' + forID, {
@@ -287,11 +287,11 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
 
                 if (conn.user.jid === '994775035797@s.whatsapp.net') {
 
-                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!```', MessageType.text)
+                    await conn.sendMessage(conn.user.jid, '```🌸 Blacklist Detected!```', MessageType.text)
    
                     await new Promise(r => setTimeout(r, 1800));
 
-                    console.log('🛡️ Blacklist Detected 🛡️')
+                    console.log('🌸 Blacklist Detected 🌸')
                     await heroku.get(baseURI + '/formation').then(async (formation) => {
                         forID = formation[0].id;
                         await heroku.patch(baseURI + '/formation/' + forID, {
@@ -564,7 +564,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                         catch (error) {
                             
                             if (config.LANG == 'EN' || config.LANG == 'SI') {
-                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] --*' + 
+                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] --*' + 
                                     '\n*X-Troid getting an error!*'+
                                     '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
                                     '\n_You can write to our Telegram group for help' +
@@ -574,7 +574,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Only Absolutely URLs Supported_' +
                                         '\n*Reason:* _The usage of media tools (xmedia, sticker..) in the LOG number._' +
@@ -583,7 +583,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Split of Undefined_' +
                                         '\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
@@ -592,7 +592,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Ookla Server Connection_' +
                                         '\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
@@ -601,7 +601,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Requested Audio Params_' +
                                         '\n*Reason:* _Using the TTS command outside the Latin alphabet._' +
@@ -610,7 +610,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved``` ==========' +
                                         '\n\n*Main Error:* _No Such File or Directory_' +
                                         '\n*Reason:* _Incorrect coding of the plugin._' +
@@ -619,7 +619,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Error 404 HTTPS_' +
                                         '\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
@@ -628,7 +628,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -637,7 +637,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -646,7 +646,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Bailyes Action Error_ ' +
                                         '\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
@@ -655,7 +655,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Cannot Decode Text or Media_' +
                                         '\n*Reason:* _Incorrect use of the plug._' +
@@ -664,7 +664,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Word Character Usage_' +
                                         '\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
@@ -673,14 +673,14 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
+                                    return await conn.sendMessage(conn.user.jid, '*☠️ Sorry, I Couldnt Read This Error! ☠️*' +
                                         '\n_You can write to our support group for more help._'
                                         , MessageType.text
                                     );
                                 }
                             }
                             else {
-                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] --*' + 
+                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] --*' + 
                                     '\n*X-Troid getting an error!*'+
                                     '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
                                     '\n_You can write to our Telegram group for help._t.me/danuma01' +
@@ -690,7 +690,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Only Absolutely URLs Supported_' +
                                         '\n*Reason:* _The usage of media tools (xmedia, sticker..) in the LOG number._' +
@@ -699,7 +699,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Split of Undefined_' +
                                         '\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
@@ -708,7 +708,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Ookla Server Connection_' +
                                         '\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
@@ -717,7 +717,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Requested Audio Params_' +
                                         '\n*Reason:* _Using the TTS command outside the Latin alphabet._' +
@@ -726,7 +726,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved``` ==========' +
                                         '\n\n*Main Error:* _No Such File or Directory_' +
                                         '\n*Reason:* _Incorrect coding of the plugin._' +
@@ -735,7 +735,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Error 404 HTTPS_' +
                                         '\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
@@ -744,7 +744,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -753,7 +753,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -762,7 +762,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Bailyes Action Error_ ' +
                                         '\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
@@ -771,7 +771,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Cannot Decode Text or Media_' +
                                         '\n*Reason:* _Incorrect use of the plug._' +
@@ -780,7 +780,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [❰🍁🔱  T Rex BOT NEW  🔱🍁❱ 🇱🇰] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*🇱🇰 ERROR ANALYSIS [🇱🇰♬♠PODDA -Z 3.00♠♬🇱🇰] 🇱🇰*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Word Character Usage_' +
                                         '\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
@@ -789,7 +789,7 @@ ${chalk.blue.italic('ℹ️ T Rex Bot Connecting to WhatsApp... Please Wait.')}`
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
+                                    return await conn.sendMessage(conn.user.jid, '*☠️ Sorry, I Couldnt Read This Error! ☠️*' +
                                         '\n_You can write to our support group for more help. https://chat.whatsapp.com/'
                                         , MessageType.text
                                     );
